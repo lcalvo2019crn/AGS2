@@ -1,0 +1,76 @@
+div{
+  margin: auto;
+  width: 800px;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 10px 10px 20px black;
+}
+ul{
+
+  background-color: grey;
+  overflow: visible;
+  margin: auto;
+  padding: 0px;
+  width: 800px;
+  clear: both;
+  margin-bottom: 100px;
+
+}
+
+li{
+  display:block;
+  width: 100px;
+  height: 100px;
+  background-color: #B2F9FE;
+  float:left;
+  margin: 0;
+  box-shadow: 2px 2px 5px black;
+  background-image: linear-gradient(to top,#4C38D4, #B2F9FE);
+}
+
+li:nth-child(2n) {
+  background-color: #1971BC;
+  background-image: linear-gradient(to top,#4C38D4,#1971BC );
+}
+
+ul:nth-child(2n) li:nth-child(1n){
+  background-color: #1971BC;
+  background-image: linear-gradient(to top,#4C38D4, #1971BC );
+}
+
+ul:nth-child(2n) li:nth-child(2n){
+  background-color: #B2F9FE;
+  background-image: linear-gradient(to top,#4C38D4, #B2F9FE);
+}
+
+.blanco {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 40px;
+  float: left;
+  display: block;
+  margin: 10px;
+  box-shadow: 2px 2px 5px black;
+  position: relative;
+}
+
+.negro {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 40px;
+  float: left;
+  display: block;
+  margin: 10px;
+  box-shadow: 2px 2px 5px black;
+  position: relative;
+}
+
+#ficha13 {
+  top: 100px;
+}
+
+#ficha21{
+  top:-200px;
+}
