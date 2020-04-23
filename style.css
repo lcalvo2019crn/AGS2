@@ -1,0 +1,124 @@
+body{
+  font-family: Playfair Display;
+  background-image: linear-gradient(90deg, #33FFA5,#33FFF0);
+}
+
+ul{
+  width: 900px;
+  background-color: white;
+  overflow:hidden;
+  padding:10px;
+  margin: 70px auto;
+}
+
+li{
+  background-color: purple;
+  display: block;
+  margin: 10px;
+  width:200px;
+  height:200px;
+  float: left;
+  border-radius: 100px;
+}
+
+/*.anulador{
+  clear: both;
+}*/
+
+a{
+  height: 200px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 75px;
+
+}
+
+li:hover{
+  filter: blur(0.5px);
+}
+
+#a01 {
+  background-image: url(img/a01.png);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a02 {
+  background-image: url(img/a02.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a03 {
+  background-image: url(img/a03.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a04 {
+  background-image: url(img/a04.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a05 {
+  background-image: url(img/a05.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a06 {
+  background-image: url(img/a06.png);
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#a07 {
+  background-image: url(img/a07.png);
+  background-size: 175%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a08 {
+  background-image: url(img/a08.png);
+  background-size: 147%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a10 {
+  background-image: url(img/a10.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a11 {
+  background-image: url(img/a11.png);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a12 {
+  background-image: url(img/a12.png);
+  background-size: 105%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#a13 {
+  background-image: url(img/a13.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

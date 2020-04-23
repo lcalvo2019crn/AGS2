@@ -1,0 +1,44 @@
+body{
+margin:0;
+padding:0;
+font-family: helvetica;
+}
+
+.arriba{
+  background-color: yellow;
+  height:100px;
+}
+
+.menu{
+  background-color: green;
+  height: 700px;
+  width:25%;
+  float:left;
+}
+
+.centro{
+  background-color: orange;
+  height:700px;
+  width: 50%;
+  float:left;
+}
+
+.rosa{
+  background-color: pink;
+  float:left;
+  height: 700px;
+  width:25%;
+
+}
+
+.negro{
+  background-color: black;
+  height:100px;
+  clear: both;
+}
+
+li{
+  list-style: none;
+  height: 60px;
+
+}
