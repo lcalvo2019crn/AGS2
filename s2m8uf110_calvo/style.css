@@ -1,0 +1,37 @@
+div{
+  background:orange;
+  width:5rem;
+  height:5rem;
+  position:relative;
+  top:5rem;
+  left:5rem;
+  transform:  rotate(45deg);
+}
+
+div:before{
+  content:"";
+  display:block;
+  background:Orange;
+  width:5rem;
+  height:5rem;
+  position:relative;
+  top:1rem;
+  left:1rem;
+  border-radius:50%;
+}
+
+div:after{
+  content:"";
+  display:block;
+  background:orange;
+  width:5rem;
+  height:5rem;
+  position:relative;
+  top:-6rem;
+  left:-1rem;
+  z-index:-1;
+}
+
+div, div:before, div:after{
+  background:tomato;
+}
