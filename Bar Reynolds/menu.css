@@ -1,0 +1,45 @@
+@media screen and (max-width: 731px){
+
+}
+
+
+body{
+  padding: 0;
+  margin:0;
+}
+
+h1{
+  font-family: Barriecito;
+  text-align: center;
+  height: 100px;
+  width: 122px;
+  margin:0;
+  margin-left:235px;
+  color: #FFF;
+  padding-top: 7px;
+  font-style: normal;
+}
+
+.top{
+  position: static;
+  height:100px;
+  width: 555px;
+  background-color: #9E0000;
+  float: left;
+}
+
+.menu{
+  position:static;
+  height:716px;
+  width: 555px;
+  background-color: cyan;
+  float:left;
+}
+
+.bottom{
+  position: static;
+  height:100px;
+  width: 555px;
+  background-color: #9E0000;
+  float: left;
+}
