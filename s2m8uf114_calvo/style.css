@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  overflow: visible;
+  position: relative;
+}
+
+.esquerra {
+  float: left;
+  clear: left;
+}
+
+.dreta {
+  float: right;
+  clear: right;
+}
+
+.cabeza {
+  width: 500px;
+  height: 600px;
+  background-color: #F2D0C9;
+  margin: 0px auto;
+  border-radius: 100px 100px 200px 200px;
+}
+
+.pelo {
+  margin: 20px auto;
+  height: 700px;
+  width: 630px;
+  background-color: #63452F;
+  border-radius: 150px 150px 0 0;
+  display: block;
+  z-index: -10;
+  padding-top: 30px;
+}
+
+.pelo::before{
+  content:"";
+  display:block;
+  background-color: #63452F;
+  width:200px;
+  height:260px;
+  position:absolute;
+  border-radius: 0% 100% 0% 120%;
+  top:-11px;
+  left:395px;
+  z-index: 10;
+  transform: rotate(-10deg);
+}
+
+.pelo::after{
+  content:"";
+  display:block;
+  background-color: #63452F;
+  width:200px;
+  height:260px;
+  position:absolute;
+  border-radius: 100% 0% 120% 0%;
+  top:-11px;
+  left:32px;
+  transform: rotate(10deg);
+}
+
+.ojos {
+  height: 320px;
+  background-color:;
+  clear: both;
+}
+
+.cejas {
+  height: 40px;
+  background-color:;
+  clear: both;
+  margin: auto;
+}
+
+.ceja {
+  width: 190px;
+  background-color:;
+  height: 20px;
+  top: 125px;
+  border-top: solid 15px #63452F;
+  animation: ceja 0.5s infinite alternate-reverse;
+}
+
+@keyframes ceja {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 125px;
+  }
+
+}
+
+.esq {
+  float: left;
+  clear: left;
+  border-radius: 50% / 10px 30px 0 0;
+  margin-left:20px;
+}
+
+.dre {
+  float: right;
+  clear: right;
+  border-radius: 50% / 30px 10px 0 0;
+  margin-right:20px;
+}
+
+.parpados{
+  height: 80px;
+  background-color:;
+  margin:0;
+  top: 80px;
+  left: 0px;
+}
+
+.parpado{
+  height: 80px;
+  width: 120px;
+  border-radius: 60%;
+  background-color: white;
+  margin: 50px;
+  position: relative;
+}
+
+.pestañas {
+  height: 100px;
+  background-color:;
+  margin: 0 75px;
+
+}
+
+.pestaña {
+  height: 60px;
+}
+
+.irisos {
+  height: ;
+  width: 350px;
+  background-color: ;
+  top:-95px;
+  left: 80px;
+}
+
+.iris {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  border: solid 10px #551205;
+}
+
+.esquerr {
+  float: left;
+  clear: left;
+  left: 20px;
+}
+
+.pupilas {
+  height: 50px;
+  background-color:;
+}
+
+.pupila {
+  height: 20px;
+}
+
+.orejas {
+  height: 100px;
+  background-color:;
+}
+
+.oreja {
+  height: 150px;
+  width: 50px;
+  background: #F2D0C9;
+  position: relative;
+  left: 49px;
+  top:-160px;
+  z-index: 100;
+}
+
+.es {
+  float: left;
+  clear: left;
+  left:-49px;
+  border-radius: 10px 20px 0 20px;
+  }
+
+.dr {
+  float: right;
+  clear: right;
+  left:;
+  border-radius: 20px 10px 20px 0;
+  }
+
+.nariz {
+  height: 120px;
+  width: 120px;
+  background-image: linear-gradient(#E9C2BA,#F2D0C9) ;
+  border-radius: 50% /  90% 90% 70% 70%;
+  position: relative;
+  top: -150px;
+  left: 190px;
+}
+
+.foratnas {
+  height: 5px;
+  background-color: ;
+}
+
+.boca {
+  height: 70px;
+  width: 200px;
+  background-color: pink;
+  position: relative;
+  top:-100px;
+  left: 138px;
+  border: solid 10px #E11010;
+  border-radius: 0% 0% 150% 150%;
+  animation: boca 1s infinite alternate-reverse;
+}
+
+@keyframes boca {
+  0% {
+    height: 70px;
+    border-radius: 0% 0% 150% 150%;
+  }
+  100% {
+    width: 70px;
+    border-radius: 100%;
+    left: 198px;
+  }
+
+}
