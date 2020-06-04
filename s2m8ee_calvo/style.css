@@ -1,0 +1,129 @@
+body{
+  font-family:sans-serif;
+  margin:0;
+  padding: 0;
+  background-color: #1E1E1E;
+}
+
+
+.contenidor{
+
+}
+
+.barra{
+  position: fixed;
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  top:0px;
+
+}
+
+.logo{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+ul{
+  list-style:none;
+  color:#FFF;
+  position: fixed;
+  margin:0;
+  padding:0;
+  top:8px;
+}
+
+li{
+  text-decoration: none;
+  display: block;
+  float:left;
+  padding: 10px;
+  color: #FFF;
+  margin:2px;
+}
+
+.nav{
+  float: left;
+  left:100px;
+}
+
+.redes{
+  right:10px;
+}
+
+.destacado{
+  position: static;
+  font-size: 22px;
+  color:#FFF;
+  left:20px;
+  margin-top: 65px;
+  margin-left: 20px;
+  clear: both;
+}
+
+.documentales{
+  margin-left: 20px;
+  margin-top: 10px;
+  width:175px;
+  border-radius: 5px;
+  float: left;
+  position: static;
+}
+
+.titulo{
+  margin:0;
+  padding:0;
+  color: white;
+  font-size: 14px;
+}
+
+.año{
+  color: white;
+  font-size:11px;
+  float: left;
+}
+
+.tipo{
+  color: white;
+  font-size: 11px;
+  float:right;
+}
+
+.visto{
+  margin-left: 20px;
+  margin-top: 10px;
+  width:175px;
+  border-radius: 5px;
+  float: left;
+  position: static;
+  filter: grayscale(100%);
+}
+
+.pendientes{
+  position: static;
+  font-size: 22px;
+  color:#FFF;
+  left:20px;
+  margin-top: 65px;
+  margin-left: 20px;
+  clear: both;
+}
+
+.pendiente{
+  margin-left: 20px;
+  margin-top: 10px;
+  width:175px;
+  border-radius: 5px;
+  float: left;
+  position: static;
+  background-color: red;
+}
+
+.imagen{
+  opacity: 0%;
+
+}
+
+#caratulas{
+  margin-top: 40px;
+}
